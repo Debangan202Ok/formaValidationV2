@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-Validation</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="stylesheet/formValidation.css" />
+  </head>
+  <body>
+    <div class="areaContainer">
+      <div class="mainContainer">
+        <header class="header">
+          <h1>WELCOME</h1>
+          <p>Enter you details to redirect to the main page</p>
+        </header>
+          <form action="" id="form" name="myForm" >
+              <section class="boxes">
+                <label for="text">NAME</label>
+                <input placeholder="Enter your name" spellcheck="false" autocomplete="off" required class="usInputs" type="text" name="text" aria-label="Enter your name">
+                <span class="material-symbols-outlined pos" title="name must be atleast two character">info</span>
+              </section>
+              <section class="boxes">
+                <label for="number" name="number">NUMBER</label>
+                <input placeholder="Enter your number" spellcheck="false" autocomplete="off" required class="usInputs" type="number" aria-label="Enter your phone number">
+                <span class="material-symbols-outlined pos" title="phone number must be 10 digit">info</span>
+              </section>
+              <section class="boxes">
+                <label for="email" name="email">EMAIL</label>
+                <input placeholder="Enter your email" spellcheck="false" autocomplete="off" required class="usInputs" type="email" aria-label="Enter your email id">
+                <span class="material-symbols-outlined pos" title="Enter a valid mail address">info</span>
+              </section>
+              <section class="boxes">
+                <label for="password" name="password">PASSWORD</label>
+                <input  placeholder="Set your password" spellcheck="false" autocomplete="off" required class="usInputs" type="password" aria-label="Enter your password">
+                <span class="material-symbols-outlined pos" title="password contain atleast one uppercase,one lowercase character and a number">info</span>
+              </section>
+              <section class="foot">
+                <a href="#">why this?</a>
+                <input class="submitBtn" type="submit" value="submit">
+              </section>
+              <footer class="end">
+                <a href="#" id="tc">Read term & condition carefully</a>
+              </footer>
+          </form>
+      </div>
+    </div>
+    <script src="javaScript/formValidation.js"></script>
+  </body>
+</html>

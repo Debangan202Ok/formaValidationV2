@@ -1,0 +1,135 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+h1 {
+  font-size: 1rem;
+}
+.areaContainer {
+  width: 60vw;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+}
+.mainContainer {
+  width: 50%;
+  height: 80%;
+  margin: auto;
+  align-items: center;
+  background : url(../images/loginback.jpg);
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 3px grey;
+}
+.header {
+  border: 2px solid;
+  width: 95%;
+  padding: 10px;
+  border-radius: 5px;
+  color: aliceblue;
+  letter-spacing: 1px;
+  /* background-color: #FFFFFF; */
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 1px solid; */
+  width: 95%;
+  height: 80%;
+  border-radius: 5px;
+  /* background-color: hsl(239, 76%, 25%); */
+}
+.boxes {
+  position: relative;
+  width: 90%;
+  height: 15%;
+  display: block;
+  /* border: 1px solid; */
+}
+.pos {
+  position: absolute; /* position the .pos icon relative to its first positioned ancestor (in this case, .boxes) */
+  right: 10px; /* move the icon 10 pixels from the right side of the .boxes element */
+  top: 55%; /* vertically center the icon within the .boxes element */
+  transform: translateY(-50%); /* adjust the vertical position of the icon to center it exactly */
+  color: aliceblue;
+}
+.pos:hover {
+  cursor: pointer;
+}
+label {
+  padding-left: 10px;
+  color: blanchedalmond;
+}
+.usInputs {
+  display: inline-block;
+  height: 50%;
+  width: 100%;
+  padding-right: 50px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: none;
+  color: aliceblue;
+  box-shadow: 0px 0px 1px 1px aliceblue;
+  background-color: transparent;
+}
+.foot {
+  width: 90%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.submitBtn {
+  width: 50%;
+  height: 65%;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 2px 1px  black;
+  background:radial-gradient(rgb(162, 91, 221),rgb(0, 0, 88));
+  color: aliceblue;
+  letter-spacing: 2px;
+}
+a{
+  text-decoration: none;
+  color: greenyellow;
+}
+a:active {
+  color: none;
+}
+#tc {
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width:1000px) {
+  .areaContainer {
+    width: 80vw;
+    height: 100vh;
+  }
+  .mainContainer{
+    width: 70%;
+    height: 60%;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .areaContainer {
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/loginback.jpg);
+    background-size: cover;
+  }
+  .mainContainer{
+    width: 90%;
+    height: 80%;
+  }
+}
