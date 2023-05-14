@@ -5,5 +5,5 @@ It's a good practise that made things from scratch. although after made this i r
 # React Hook Form
 # Formik
 this are the use full things that make life much easier as a developer. but i recommaned first made things by your own without using libraies
-# https://pauldebangan1970.github.io/formValidation/   ---this is the first own that i made
-# https://pauldebangan1970.github.io/formValidationV2/  ---this is the second onw more resposive and more strict checking
+# https://pauldebangan1970.github.io/formValidation/   ---this is the first one that i made
+# https://pauldebangan1970.github.io/formaValidationV2/  ---this is the second one more resposive and more strict checking
