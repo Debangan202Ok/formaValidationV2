@@ -47,6 +47,10 @@ form {
   border-radius: 5px;
   /* background-color: hsl(239, 76%, 25%); */
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+       -webkit-appearance: none;
+ }
 .boxes {
   position: relative;
   width: 90%;
